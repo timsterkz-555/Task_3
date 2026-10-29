@@ -38,3 +38,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# В PR включаем автономный Allure HTML без вспомогательного Maven Site.
+reports/allure-*/*
+!reports/allure-*/index.html
